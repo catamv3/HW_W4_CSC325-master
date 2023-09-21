@@ -10,15 +10,15 @@ public class StaffEmployee extends StaffMember
 
     //-----------------------------------------------------------------
     //  TODO 2: Sets up this staff employee with the specified
-    //  information.
+    //  information. (done)
     //-----------------------------------------------------------------
     public StaffEmployee(String eName, String eAddress, String ePhone,
             String socSecNumber, double rate)
     {
         super(eName, eAddress, ePhone);
 
-        socialSecurityNumber = socSecNumber;
-        payRate = rate;
+        this.socialSecurityNumber = socSecNumber;
+        this.payRate = rate;
     }
 
     //-----------------------------------------------------------------
@@ -32,10 +32,10 @@ public class StaffEmployee extends StaffMember
     }
 
     //-----------------------------------------------------------------
-    // TODO 4:  Returns the pay rate for this staff employee.
+    // TODO 4:  Returns the pay rate for this staff employee. (done)
     //-----------------------------------------------------------------
     public double pay()
     {
-
+        return payRate;
     }
 }

@@ -23,11 +23,12 @@ public class StaffEmployee extends StaffMember
 
     //-----------------------------------------------------------------
     // TODO 3: complete the implementation of toString to return information 
-    //          about a staff employee as a string.
+    //          about a staff employee as a string. (done)
     //-----------------------------------------------------------------
     public String toString()
     {
-
+        return ("Name: " + super.name + " Address:  " + super.address + " Phone: " + super.phone +
+                " SSN: " + socialSecurityNumber + " Pay Rate:  " + payRate);
     }
 
     //-----------------------------------------------------------------
@@ -35,6 +36,6 @@ public class StaffEmployee extends StaffMember
     //-----------------------------------------------------------------
     public double pay()
     {
-       
+
     }
 }

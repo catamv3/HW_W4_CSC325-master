@@ -1,11 +1,11 @@
 package com.mycompany.agency;
 
 
-public class Intern extends StaffEmployee
+public class Intern extends StaffMember
 {
-    public Intern(String eName, String eAddress, String ePhone, String socSecNumber, double rate)
+    public Intern(String eName, String eAddress, String ePhone)
     {
-        super(eName, eAddress, ePhone, socSecNumber, rate);
+        super(eName, eAddress, ePhone);
     }
 
     public double pay()

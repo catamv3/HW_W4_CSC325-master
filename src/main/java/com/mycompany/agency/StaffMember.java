@@ -25,7 +25,8 @@ package com.mycompany.agency;
     //-----------------------------------------------------------------
     public String toString()
     {
-        return "Name: " + name + "Address: " + address + "Phone: " + phone ;
+       // return "Name: " + name + "Address: " + address + "Phone: " + phone ;
+     return "\nName: " + name + "\nAddress: " + address + "\nPhone: " + phone ;
 
     }
 

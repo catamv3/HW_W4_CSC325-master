@@ -40,6 +40,6 @@ public class TempEmployee extends StaffEmployee {
     public String toString()
     {
        // return (super.toString()+String.format("\nHours worked: %.1f",hoursWorked));
-        return (super.toString()+"\nHours worked: "+hoursWorked);
+        return (super.toString());
     }
 }
